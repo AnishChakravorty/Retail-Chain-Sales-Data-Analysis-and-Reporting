@@ -56,61 +56,79 @@ It includes the following fields:
 ## Dashboard
 
 ![Excel Dashboard](https://github.com/user-attachments/assets/b0032b40-85af-4fe5-8399-7dfbf5ad8819)
-![Excel Dashboard 2](https://github.com/user-attachments/assets/514db744-3fc4-4c2d-8425-7221f7683f76)
+![image](https://github.com/user-attachments/assets/48cdffef-96c4-4781-8624-0248016ace31)
 
 
 ## Insights
 
-1. Sales Overview:
+### Retail Transaction Dashboard 
 
-- Total Sales: $4.13M
-- Total Profit: $503.78K
-- Profit Margin: 12.18%
-- Total Quantity Sold: 26.73K
+1. Overall Performance:
 
-
-2. Sales by Segment:
-
-- Consumer segment leads with 50.52% of sales
-- Corporate follows with 30.34%
-- Home Office accounts for 19.14%
+- Total Transaction amount: 812237
+- Count of customer_id: 124959
+- Average Transaction: 64.9951428
+- Customer Response: 13842
 
 
-3. Sales by Category:
+2. Monthly Trends:
 
-- Technology is the top-selling category (35.98%)
-- Furniture is second (32.75%)
-- Office Supplies is third (31.27%)
-
-
-4. Sales Trend:
-
-- The line graph shows sales fluctuations over time
-- There's a noticeable peak in sales around November-December, suggesting a holiday season spike
-- Sales seem to have an overall upward trend over the period shown
+- The "Month year vs Transaction amount" chart shows consistent transaction levels from 2011 to early 2015, with a significant drop at the end of the period.
+- The "Month vs Transaction amount" bar chart indicates some monthly variation, with peaks in months 1, 6, and 7 (likely January, June, and July).
 
 
-5. Top 5 Sub-Categories:
+3. Top Customers:
 
-- Phones (21.26%)
-- Chairs (20.54%)
-- Storage (13.84%)
-- Tables (12.59%)
-- Binders (10.71%)
+- The "Top 10 Customer_id count" chart shows the most frequent customers, with CS4424 having the highest transaction count.
+-"Top 10 Customers by Response" displays a fairly even distribution among the top responders, each accounting for around 32-33% of responses.
 
 
-6. Regional Sales:
+4. Customer Value:
 
-- West region leads in sales with 32.61%
-- East follows closely with 28.78%
-- Central and South regions have lower sales percentages
+- The "Top 10 customers vs Transaction amount" chart shows CS3752 as the highest-value customer, followed closely by CS3555 and CS6109.
 
 
-7. Top 5 Cities by Sales:
+5. Customer Behavior:
 
-- New York City
-- Los Angeles
-- Philadelphia
-- San Francisco
-- Seattle
+- There's a discrepancy between transaction frequency and transaction amount. The customers with the most transactions are not necessarily those with the highest transaction amounts.
+
+
+6. Seasonality:
+
+- The monthly transaction amounts suggest some seasonality in the business, with higher volumes in certain months.
+
+
+7. Customer Base:
+
+- With 124,959 unique customer IDs, the business has a large customer base, but the top 10 charts indicate that a small portion of customers contribute significantly to transactions and responses.
+
+
+8. Response Rate:
+
+- The customer response figure (13,842) compared to the total customer count suggests that only about 11% of customers are actively responding or engaging with the business in some way.
+
+### Additional Analysis 
+
+1. Frequency vs Monetary: There's a strong positive correlation between frequency of purchases and monetary value. As customers make more purchases, they tend to spend more overall.
+
+2. Customers vs Month:
+
+- Peak customer activity is in February (1715 customers)
+- There's a significant drop in March (1330 customers)
+- The lowest point is in April (39 customers)
+- Customer numbers gradually recover from May to December
+
+
+3. Customer Segmentation:
+
+- Monetary: 80% of revenue comes from segment P0, while 20% comes from P2
+- Frequency: 74% of purchases are made by segment P0, while 26% are from P2
+
+
+4. Frequency vs Customers: The top 10 customers by frequency are shown, with CS4424 having the highest purchase frequency at 39.
+
+5. Seasonal Trends: The Customers vs Month chart suggests strong seasonality in the business, with a peak in winter and a trough in spring.
+
+6. Customer Concentration: The Frequency vs Customers chart implies that a small number of high-frequency customers contribute significantly to the business.
+
 
